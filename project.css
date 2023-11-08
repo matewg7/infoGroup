@@ -1,13 +1,74 @@
+
 /* for links */
 .navbar{
-    display: inline;
-    font-family:'Times New Roman', Times, serif;
-    font-size:smaller;
-    margin-left: 100px;
+    background-color: #990000;
+    position:sticky;
+    top:0px;
+    z-index: 1; /*crucial*/
+}
+.navbar table{
+    border-bottom: solid #7D0000 thick;
 }
 
+.navbar a{
+    /* font-size:xx-large; */
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    font-size:medium;
+    color: white;
+}
+
+.navbar button{
+    width: 100%;
+    margin: auto;
+    border: none;    
+
+}
+.navbar th{
+    border-bottom: none;    
+    width: 1%;
+    padding: 0px;
+    
+}
+.button:hover{
+    background-color: #7D0000;
+}
+
+.button{
+    transition-delay: 0.25;
+    
+    
+}
+
+
+/* .button:active */
+
+
+/* for backgrounds */
+
+
 /* for images */
+.headerImage{
+    float: left;
+    margin-left: 40%;
+   width:30%;
+   min-width: 30px;
+}
+
+.homePageImage{
+    /* float: left; */
+    width: 300px;
+    max-width: 100%;
+}
 
 /* for headers */
 
 /* for ?? */
+
+/* for sizing */
+.textBlockFormatting{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
