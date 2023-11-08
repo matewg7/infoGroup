@@ -1,7 +1,5 @@
 
-/* 
-for links
-*/
+/* for links */
 .navbar{
     background-color: #990000;
     position:sticky;
@@ -17,17 +15,14 @@ for links
     text-decoration: none;
     height: 100%;
     width: 100%;
-    border: none;
+    font-size:medium;
+    color: white;
 }
 
 .navbar button{
+    width: 100%;
     margin: auto;
-    padding: none;
     border: none;    
-    color: white;
-    font-size: medium;
-    /* text-align: center; */
-    display: block;
 
 }
 .navbar th{
@@ -35,18 +30,13 @@ for links
     width: 1%;
     padding: 0px;
     
-    
 }
 .button:hover{
     background-color: #7D0000;
- 
-
-    transition-duration: 125ms;
 }
 
 .button{
     transition-delay: 0.25;
-    margin-top: 5%;
     
     
 }
@@ -55,14 +45,10 @@ for links
 /* .button:active */
 
 
-/*
-for backgrounds 
-*/
+/* for backgrounds */
 
 
-/* 
-for images 
-*/
+/* for images */
 .headerImage{
     float: left;
     margin-left: 40%;
@@ -75,20 +61,12 @@ for images
     width: 300px;
     max-width: 100%;
 }
-.teamProfileImages{
-    width: 300px;
-    max-width: 100%;
-}
 
-/*
-for headers
-*/
+/* for headers */
 
 /* for ?? */
 
-/*
-for sizing
-*/
+/* for sizing */
 .textBlockFormatting{
     color: red;
     font-family: 'Times New Roman', Times, serif;
